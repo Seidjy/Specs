@@ -13,7 +13,6 @@ Pod::Spec.new do |spec|
     spec.license      = { :type => 'BSD', :file => 'WebRTCFlutter.xcframework/LICENSE' }
     spec.author       = "webrtc-sdk"
     spec.ios.deployment_target = '12.0'
-    spec.osx.deployment_target = '10.13'
   
     spec.source       = { :http => "https://github.com/Seidjy/Specs/releases/download/114.5735.08/WebRTCFlutter.xcframework.zip" }
     spec.vendored_frameworks = "WebRTCFlutter.xcframework"
